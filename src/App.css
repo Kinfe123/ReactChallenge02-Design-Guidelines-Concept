@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:ital,wght@0,400;0,600;0,700;1,600&family=Prompt:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+:root {
+  --primarycolor: #7217FC;
+  --errorcolor: #ED0B0B;
+}
+* {
+   margin: 3px;
+   padding:3px;
+   box-sizing: border-box;
+   
+}
+
+.App {
+  margin: 30px;
+  
+color: black;
+
+background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 12.5px );
+-webkit-backdrop-filter: blur( 12.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1ee500+0,ffffff+22,ffffff+77,ffffff+85,f7073f+100 */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1ee500+0,ffffff+10,ffffff+77,ffffff+91,f7073f+100 */
+background: #1ee500; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #1ee500 0%, #ffffff 10%, #ffffff 77%, #ffffff 91%, #f7073f 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #1ee500 0%,#ffffff 10%,#ffffff 77%,#ffffff 91%,#f7073f 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #1ee500 0%,#ffffff 10%,#ffffff 77%,#ffffff 91%,#f7073f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ee500', endColorstr='#f7073f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.App .headertext {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Prompt', sans-serif;
+}
+
+.design-header {
+   width: 40vw;
+}
+
+
+.actual-concepts {
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  position: relative;
+}
+.column-header {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+ 
+  
+}
+.concepts {
+  margin: 3px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+  margin-left: 10px;
+  position: relative;
+  
+}
+.primary {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 400;
+  /* margin-bottom: 10px; */
+}
+.non-outline  {
+  /* margin-bottom: 10px; */
+  width: 10px;
+}
+
+.btns .outline {
+  color: var(--primarycolor);
+  background-color: transparent;
+}
+
+.btns {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  padding: 10px 40px;
+  text-align: center;
+/* From https://css.glass */
+/* From https://css.glass */
+background: rgba(114, 23, 252, 0.89);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(14px);
+-webkit-backdrop-filter: blur(14px);
+border: 1px solid rgba(114, 23, 252, 0.89);
+  border-radius: 10px;
+border-radius: 10px;
+  color: white;
+  width: 23vw;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.outline {
+  color: var(--primarycolor);
+  background-color: transparent;
+  border: 1px solid var(--primarycolor);
+}
+.icon-bottom {
+  display: inline-block;
+  
+  width: 100%;
+}
+.arrow {
+  position: absolute;
+  left: 200px;
+  top: 0;
+  
+
+  /* right: 0;
+  bottom: 0;
+  top: 15px;
+  top
+  left: 170px; */
+
+  /* background-color: black; */
+  /* left: 80px; */
+
+
+}
+::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Prompt', sans-serif;
+}
+
+.spanforbtn {
+  position: absolute;
+  left: 0px;
+  color: black;
+}
+.inputfor {
+  width: 23vw;
+  outline: none;
+  padding: 11px;
+  border-radius: 4px;
+  border: 1.5px solid grey;
+  
+
+
+}
+.eye {
+  position: absolute;
+  top: 104px;
+
+  left: 65%;
+}
+.eye-visible{
+  position: absolute;
+  top: 188px;
+
+  left: 65%;
+}
+.nextword {
+  margin-top: -30px;
+}
+
+input[type=password]:not(:placeholder-shown) {
+  font-weight: 400px;
+  letter-spacing: 1.8;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Prompt', sans-serif;
+ 
+
+}
+input[type=text] {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Prompt', sans-serif;
+}
+
+.focused {
+  border: 1.5px solid var(--primarycolor);
+}
+.error {
+  border: 1.5px solid var(--errorcolor);
+}
+@media only screen and (max-width: 600px) {
+  .actual-concepts {
+    grid-template-columns: repeat(1 , 1fr);
+  }
+  /*to be continued*/
+
+
+  
+}
